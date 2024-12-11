@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #f8f8f8;
+}
+
+/* Page Container */
+.page-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Sections */
+.section {
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}
+
+/* Left Section */
+.left-section {
+    background-color: #f1f1f1;
+    width: 25%;
+    border-right: 1px solid #ddd;
+}
+
+/* Center Section */
+.center-section {
+    background-color: #fff;
+    width: 50%;
+    border-right: 1px solid #ddd;
+}
+
+.header {
+    background-color: #d2232a;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+/* Logo with rounded corners */
+.logo {
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Right Section */
+.right-section {
+    background-color: #f9f9f9;
+    width: 25%;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.price {
+    color: #d2232a;
+}
+
+.old-price {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+}
+
+.discount {
+    color: #d2232a;
+}
